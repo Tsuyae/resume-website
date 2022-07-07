@@ -1,0 +1,324 @@
+/* components */
+
+
+
+/* $phone: 428px;
+$tablet: 1024px; */
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    vertical-align: baseline;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1rem;
+    background-color: rgb(23, 18, 32);
+    background-image: url(images/noahbackground.png);
+    height: 1vh;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 4vmin;
+    padding-right: 4vmin;
+ 
+  }
+
+
+  
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+p {
+    margin: 0;
+}
+
+
+
+
+/* header */
+
+.home {
+    display: flex;
+    width: auto;
+    height: 10vw;
+    gap: 1vw;
+    padding-bottom: 1vmin;
+    padding-top: 10vmin;
+}
+
+header {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-bottom: 30vw;
+    animation: fadeIn 2s;
+}
+
+
+
+.links {
+    display: flex;
+    gap: 2vw;
+    font-size: 2vw;
+}
+
+
+
+
+
+/* subtitle */
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14vw;
+    margin-top: 15vmin;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.name{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    justify-content: right;
+    font-size: 3vmin;
+}
+
+.job {
+    display: flex;
+    color: white;
+    justify-content: right;
+    font-size: 2vmin;
+}
+
+
+
+.github {
+    display: flex;
+    justify-content: right;
+    margin-top: .5vw;
+}
+
+#githubicon {
+    height: 2vw;
+}
+
+
+
+/* introduction */
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.descheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-inline: 10vw;
+    padding: 0;
+    font-size: 8vmin;
+    font-weight: bold;
+}
+
+.desc {
+    color: white;
+    padding: 1vw;
+    font-size: 3vw;
+    text-align: center;
+
+}
+
+
+
+
+.app-drawer {
+
+    display: block;
+    margin: inherit;
+
+}
+
+
+.logo {
+    max-height: 10vw;
+    background-color: #8e96af;
+    border-radius: 10px;
+    padding: 0.1vw;
+    margin: 4vw;
+}
+
+#html {
+    background: linear-gradient(270deg, #8e96af, #d45835);
+    animation: gradient 30s ease infinite;
+    background-size: 400% 400%;
+}
+
+#css {
+    background: linear-gradient(270deg, #3671b1, #8e96af);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+#js {
+    background: linear-gradient(270deg, #ecdc68, #8e96af);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+#python {
+    background: linear-gradient(270deg, #f8d55f, #8e96af, #4671a1);
+    background-size: 600% 600%;
+    animation: gradient 30s ease infinite;
+}
+
+#pdn {
+    background: linear-gradient(270deg, #db454b, #8e96af);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+#powerplatform {
+    background: linear-gradient(270deg, #e05c35, #8e96af, #8cb838, #49a1ea, #f4bc41);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+
+@keyframes gradient { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.app-images-1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.app-images-2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3vw;
+    margin-bottom: 4vh;
+
+}
+
+
+
+.grid-container {
+    display: grid;
+    justify-items: center;
+    margin: 2vw;
+    color: white;
+    grid-template-columns: 1fr 1fr;
+  }
+
+.grid-item {
+    display: grid;
+    align-items: center;
+    font-size: 2vw;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding: 1vw;
+    margin-right: 0;
+    padding: 0;
+}
+
+.do-desc {
+    margin-bottom: 4vw;
+
+    
+}
+
+
+.icon {
+    height: 5vw;
+}
+
+
+
+
+.contact {
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 2vw;
+    margin-bottom: 5vw;
+}
+
+.contacttext {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+
+
+/* 
+.contact-grid {
+    display: grid;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* 
+footer {
+    display: flex;
+    color: white;
+    background-color: #8e96af41;
+    padding: 1vw;
+    justify-content: center;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin: 0;
+
+
+} */
