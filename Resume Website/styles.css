@@ -110,11 +110,11 @@ header {
 .github {
     display: flex;
     justify-content: right;
-    margin-top: .5vw;
+    margin-top: 1vw;
 }
 
 #githubicon {
-    height: 2vw;
+    height: 3vw;
 }
 
 
