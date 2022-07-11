@@ -191,7 +191,7 @@ header {
 }
 
 #pdn {
-    background: linear-gradient(270deg, #db454b, #8e96af);
+    background: linear-gradient(270deg, #E15241, #8e96af);
     background-size: 400% 400%;
     animation: gradient 30s ease infinite;
 }
@@ -264,7 +264,8 @@ header {
 
 
 .icon {
-    height: 5vw;
+    width: 5vw;
+    height: auto;
 }
 
 
