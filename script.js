@@ -25,7 +25,7 @@ window.addEventListener('scroll', function(e) {
 
 window.addEventListener('scroll', function(e) {
 
-    const target = document.querySelector('#pdn');
+    const target = document.querySelector('#swift');
     var scrolled = window.pageYOffset;
     var rate = (scrolled) * -0.04
     target.style.transform = 'translate3d('+rate+'px, '+-rate+'px, '+rate+'px)';

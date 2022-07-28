@@ -190,8 +190,8 @@ header {
     animation: gradient 30s ease infinite;
 }
 
-#pdn {
-    background: linear-gradient(270deg, #E15241, #8e96af);
+#swift {
+    background: linear-gradient(270deg, #DE5D43, #8e96af);
     background-size: 400% 400%;
     animation: gradient 30s ease infinite;
 }
